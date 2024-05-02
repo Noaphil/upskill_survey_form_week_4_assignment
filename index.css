@@ -1,93 +1,80 @@
-{
+*{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    border: none;
 }
-h1 {
-    text-align: center;
-    margin: 20px;
-    color: antiquewhite;
-    background-color: rgb(18, 33, 46);
-}
+
 body {
-    background-image: url(./my_assignment_image.jpg);
-    font-family: system-ui, -apple-system,
-        BlinkMacSystemFont, 'Segoe UI',
-        Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-size: contain;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }
 
-.container {
-    margin-left: 450px;
-    margin-top: 40px;
-    background-color: white;
-    width: 400px;
-    height: 900px;
-    padding: 30px;
-    box-shadow: 0px 3px 10px rgb(140, 166, 190);
+
+.profile-card {
+    background-color:rgb(114, 57, 114);
+    width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 0px solid rgb(11 11 11);
+    border-radius: 5px;
+    box-shadow: 8px 8px 8px rgba(53, 47, 2, 0.911);
 }
 
-.age-label {
-    display: flex;
-}
-
-.recomendation-div {
-    margin-top: 20px;
-}
-
-.age {
-    width: 300px;
-    height: 30px;
-    border-radius: 4px;
-    padding: 10px;
-}
-
-.fname {
-    width: 300px;
-    height: 30px;
-
+.profile-picture {
     display: block;
-    padding: 10px;
+    width: 150px;
+    height: 150px;
+    border: 2px double rgb(177, 131, 114);
+    border-radius: 40%;
+    object-fit: cover;
+    margin: 0 auto 20px;
+    box-shadow: 4px 4px 6px rgba(53, 47, 2, 0.911);
+
+}
+.card{
+    margin: o auto;
 }
 
-.email {
-    width: 300px;
-    height: 30px;
-    padding: 10px;
-}
-
-.discribe {
-    width: 300px;
-    height: 30px;
-    padding: 5px;
-}
-
-.radio {
+.name {
+    font-size: 24px;
+    font-weight: bold;
     margin-bottom: 10px;
-
+    color: white;
 }
-
-.recom {
+.job-title {
+    font-size: 18px;
+    color: white;
     margin-bottom: 10px;
+    padding: 7px;
+    border-top: 7px double rgb(231, 153, 7);
+    border-bottom: 7px double rgb(231, 153, 7);
+    border-radius: 5%;
+    background-color: purple;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-.cooment-suggestion {
-    display: flex;
-    flex-direction: column;
-    resize: vertical;
-}
 
-.text {
-    width: 300px;
-    height: 30px;
+.description {
+    font-size: 16px;
+    text-align: center; /* Align description to the left */
+    line-height: 1.5;
+    color: white;
+    border-bottom: 20px;
 }
-
-.button {
-    width: 100px;
-    background-color: rgb(162, 192, 216);
+  
+.social-icons{
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: rgb(231, 153, 7);
+    font-size: 24px;
+    transition: color 0.3s ease-in-out;
+    border-top: 20px;
+    text-align: center;
 }
-
-.discription-div {
-    display: flex;
-    flex-direction: column;
+.social-icons:hover{
+    color: white;
 }
